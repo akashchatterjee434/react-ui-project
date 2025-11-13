@@ -1,12 +1,39 @@
-# React + Vite
+## 🎯 Customer Segmentation – Digital Banking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This section of the platform showcases how a modern digital bank can identify and serve different customer groups based on their banking engagement. Built entirely in **React**, it combines clean UI, responsive design, and strategic fintech thinking.
 
-Currently, two official plugins are available:
+### 🧠 Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To simulate how banks categorize users into actionable segments for personalized services, financial inclusion, and product targeting.
 
-## Expanding the ESLint configuration
+### 👥 Segments Displayed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Segment      | Description                                                                 | Label         |
+|--------------|------------------------------------------------------------------------------|---------------|
+| Satisfied    | Actively engaged users with positive banking experience                     | 🔵 "Satisfied" |
+| Underserved  | Users with limited access to banking features or support                    | 🟢 "Underserved" |
+| Unbanked     | Users without formal banking access, relying on cash or informal systems    | 🟣 "Unbanked" |
+
+### 🖼️ UI Features
+
+- 📦 **Card-Based Layout**: Each segment is displayed in a visually distinct card
+- 🎨 **Color-Coded Labels**: Clear visual cues for segment status
+- 🧍‍♂️ **User Avatars**: Realistic personas to enhance relatability
+- 📱 **Responsive Design**: Optimized for desktop and mobile
+- 🧩 **Modular Components**: Built with reusable React components
+
+- 
+
+### 🔧 Tech Stack
+
+- **React** (Functional Components, Hooks)
+- **CSS / Tailwind** for styling
+- **Props-based architecture** for dynamic rendering
+
+### 📌 Future Enhancements
+
+- 🔄 Connect to backend for real-time segmentation
+- 📊 Add analytics dashboard for segment insights
+- 🌐 Multi-language support for broader accessibility
+
+
